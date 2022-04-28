@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    /* I'm not confident space-around is the right answer to this, but it'll do for now. */
+    justify-content: space-around;
+    padding: 10px;
+}
+.logo {
+    color:#F9FAF8;
+    font-size: 28px;
+    font-weight: 700;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    column-gap: 15px;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
