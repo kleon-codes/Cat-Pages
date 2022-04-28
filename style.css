@@ -8,11 +8,12 @@ body {
     display: flex;
     /* I'm not confident space-around is the right answer to this, but it'll do for now. */
     justify-content: space-around;
+    align-items: center;
     padding: 10px;
 }
 .logo {
     color:#F9FAF8;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
 }
 ul {
@@ -25,5 +26,40 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+    font-size: 18px;
 }
 
+.sec-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.top-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+}
+.title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.second-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.fat-cat-1 {
+    max-width: 400px;
+}
+button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: #F9FAF8;
+    margin-right: auto;
+    font-size: 18px;
+    padding: 6px 24px;
+    font-weight: bold;
+    border: 0;
+}
